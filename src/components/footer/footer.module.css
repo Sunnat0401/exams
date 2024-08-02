@@ -1,0 +1,97 @@
+.footer{
+   background-color: #004290;
+   width: 100%;
+   padding:0px  0px 30px 0px;
+}
+.footer_container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.footer_top{
+    background: url('/footerbg.png') no-repeat center center;    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer_information{
+    padding: 0px 20px;
+}
+.footer_text{
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 20px 0px;
+}
+.footer_form{
+    display: flex;
+    gap: 10px;
+}
+.footer_input{
+    width: 250px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+.footer_btn{
+    padding: 10px 20px;
+    border: none;
+    background-color: #23AF5F;
+    color: #FFFFFF;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.footer_btn:hover{
+    background-color: #148B53;
+}
+.footer_bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer_lists{
+    display: flex;
+    gap: 10px;
+    padding: 20px 10px;
+}
+.footer_number{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.footer_item{
+    background-color: #23AF5F;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.footer_pictures{
+    transition: all 0.5s ease;
+}
+.footer_item:hover .footer_pictures{
+    transform: scale(1.1);
+}
+.footer_location{
+    display: flex;
+    gap: 20px;
+}
+.footer_info{
+    color: white;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    text-align: end;
+}
+.footer_name{
+    width: 100%;
+    border-top: 1px solid #6C8DB4;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px 0px 0px 0px;
+}

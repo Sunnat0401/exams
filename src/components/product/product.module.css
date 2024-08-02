@@ -1,0 +1,30 @@
+.product{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.product_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.product_card{
+  padding: 20px;   
+  background-color: hsl(231, 100%, 97%);
+  height: 350px;
+  border-radius: 10px;
+
+}
+.product_subtitle{
+    padding: 4px 0;
+}
+.product_title{
+    padding: 10px 0;
+}
+.product_list{
+    display: flex;
+    align-items: start;
+    /* justify-content: center; */
+    padding: 5px 0px ;
+    gap: 10px;
+}

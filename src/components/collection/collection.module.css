@@ -1,0 +1,31 @@
+.collection{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.collection_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.collection_card{
+  padding: 20px;
+  margin: 0px 10px;   
+  background-color: hsl(231, 100%, 97%);
+  height: 350px;
+  border-radius: 10px;
+
+}
+.collection_subtitle{
+    padding: 4px 0;
+}
+.collection_title{
+    padding: 10px 0;
+}
+.collection_list{
+    display: flex;
+    align-items: start;
+    /* justify-content: center; */
+    padding: 5px 0px ;
+    gap: 10px;
+}

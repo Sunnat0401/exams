@@ -1,0 +1,30 @@
+.description{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+.description_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.description_left{
+    display: flex;
+}
+.description_image{
+    width: 150px;
+    height: 350px;
+}
+.description_right{
+    width: 50%;
+}
+.description_title{
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px 0;
+}
+.description_text{
+    font-size: 16px;
+    line-height: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

@@ -1,0 +1,39 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  backdrop-filter: blur(10px); /* Blur effekt */
+  background-color: rgba(255, 255, 255, 0.8); /* Orqa fonni oq rangda, shaffoflik bilan */
+  transition: background-color 0.3s ease, backdrop-filter 0.3s ease; /* Animatsiya */
+}
+.navbar .container{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 7px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+  margin: 0 auto;
+  max-width: 1300px;
+}
+ .navbar_lists{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+ .navbar_list{
+  text-decoration: none;
+  padding: 10px 20px;
+  color: #4071AC;
+  transition: all 0.5s ease-in-out;
+ }
+ .navbar_list:hover{
+  color: #003466;
+  transform: scale(1.01);
+ }
+ .language_list{
+  padding: 6px;
+  border-radius: 5px;
+  outline: none;
+ }

@@ -1,0 +1,53 @@
+.direction{
+  width: 100%;   
+  background-color: #F1F3FF;
+}
+.direction_container{
+    max-width: 1300px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 70px 0;
+
+}
+.direction_cards{
+    padding: 35px;
+    position: relative;
+}
+.direction_card{
+    width: 200px;
+    height: 250px;
+    border-radius: 36px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+}
+.direction_image{
+    transition: all 0.5s ease;
+
+}
+.direction_card:hover .direction_image {
+    transform: scale(1.1);
+  }
+.direction_blog{
+    padding: 40px;
+    background-color: #01438F;
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.direction_text{
+     text-align: center;
+     color: #004290;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

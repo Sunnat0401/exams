@@ -1,0 +1,49 @@
+.send_button{
+    width: 350px;
+    height: 45px;
+    font-size: 26px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    background-color: #23AF5F;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.5s ease-in-out;
+    margin-top: 40px;
+}
+.send_button:hover{
+    background-color: #269956;
+    cursor: pointer;
+}
+  .modal_container {
+    padding: 20px;
+  }
+  
+  .modal_title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #0056b3;
+  }
+  
+  .modal_form_item {
+    margin-bottom: 15px;
+  }
+  
+  .modal_submit_button {
+    background-color: #28a745;
+    color: white;
+    width: 100%;
+    border: none;
+    padding: 10px 0;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .modal_description {
+    margin-top: 15px;
+    font-size: 12px;
+    text-align: center;
+    color: #666;
+  }
+  
