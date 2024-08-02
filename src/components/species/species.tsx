@@ -21,7 +21,7 @@ const Species: React.FC = () => {
   spaceBetween={20}         // Slaydlar orasidagi bo'shliq
   loop={true}               // Cheksiz loop
   autoplay={{
-    delay: 2000,            // Har 2 sekundda avtomatik o'zgarish
+    delay: 2000,            // Har 2 sekundda avtomatik o'zgarish murojat uchun To'xtaqulov Sunnat @sunnat_0401
     disableOnInteraction: false,
   }}
 >
